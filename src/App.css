@@ -1,0 +1,147 @@
+.app-container {
+  min-height: 100vh;
+  padding: 0 10%;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.gradient-text {
+  font-size: 5rem;
+  font-weight: 900;
+  background: linear-gradient(to right, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+/* Button Styling */
+.primary-btn {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(100, 108, 255, 0.3);
+}
+
+
+
+/* Gallery Layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+/* Glassmorphism Card Effect */
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px); /* Blurs the background behind the card */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-10px);
+  border-color: var(--accent);
+}
+
+.card-badge {
+  background: var(--accent);
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  color: var(--accent);
+  background: rgba(56, 189, 248, 0.1);
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.contact-section {
+  margin: 100px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group input, 
+.input-group textarea {
+  width: 100%;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+  border-color: var(--accent);
+}
+
+.contact-form .primary-btn {
+  width: 100%;
+  padding: 1.2rem;
+}
