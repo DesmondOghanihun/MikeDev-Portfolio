@@ -34,6 +34,7 @@ const PROJECTS = [
     title: "Neural Network UI",
     description: "A dark-themed interface for AI model monitoring.",
     tech: ["React", "Three.js"],
+    
   }
 ];
 
