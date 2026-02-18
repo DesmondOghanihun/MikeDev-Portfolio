@@ -5,12 +5,12 @@ I used React 18 and Vite to create a high-performance, component-driven showcase
 ✅ State Management: Handling complex form data with hooks.
 ✅ Dynamic Rendering: Using .map() for scalable UI components.
 ✅ Vite Optimization: Lightning-fast builds and deployments.
-Check out the live demo here: [Insert Your Link]
-#ReactJS #WebDevelopment #Vite #Javascript #Portfolio
+
+##ReactJS #WebDevelopment #Vite #Javascript #Portfolio
 Proud to share my latest project: The MikeDev Portfolio! 💻
 Built with #React and #Vite for maximum speed. Features include a dynamic project gallery and a fully controlled contact form.
-Live Link: [Insert Your Link]
-Github: https://desmondoghanihun.github.io/MikeDev-Portfolio/
+##Live Link: []
+##Github: https://desmondoghanihun.github.io/MikeDev-Portfolio/
 #CodeNewbie #100DaysOfCode #BuildInPublic
 
 
