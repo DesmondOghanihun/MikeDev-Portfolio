@@ -67,19 +67,15 @@ A sleek, responsive developer portfolio built with **React** and **Vite**.
 - **Mobile First**: Fully responsive layout using modern CSS Grid and Flexbox.
 
 ## 🛠️ Installation
-
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/your-username/mike-portfolio.git](https://github.com/your-username/mike-portfolio.git)
-
-```
+   git clone [https://github.com/DesmondOghanihun/MikeDev-Portfolio.git](https://github.com/DesmondOghanihun/MikeDev-Portfolio.git)
 
 2. Install dependencies:
 ```bash
 npm install
 
 ```
-
 
 3. Start the dev server:
 ```bash
